@@ -6,3 +6,4 @@ const config = {
   "localStorage": "",
   "file": "./data/db.json",
 };
+export * from './db.datasource';
