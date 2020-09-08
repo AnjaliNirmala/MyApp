@@ -1,4 +1,6 @@
+export * from './db.datasource';
 export * from './my-app.datasource';
+export * from './product.datasource';
 
 const config = {
   "name": "db",
@@ -6,5 +8,4 @@ const config = {
   "localStorage": "",
   "file": "./data/db.json",
 };
-export * from './db.datasource';
-export * from './mongo-lb-demo1.datasource';
+
