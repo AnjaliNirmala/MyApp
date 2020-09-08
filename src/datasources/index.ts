@@ -7,3 +7,4 @@ const config = {
   "file": "./data/db.json",
 };
 export * from './db.datasource';
+export * from './mongo-lb-demo1.datasource';
